@@ -1,0 +1,23 @@
+EDITÁVEIS E ORIGINAIS — NÃO ENVIAR À HOSPEDAGEM
+
+Nuvens:
+tools/clouds/dreamcore-clouds.blend
+tools/clouds/sculpt_clouds.py
+
+Tamagotchi final:
+tools/tamagotchi/laura-pocket-device-v4.blend
+tools/tamagotchi/build_device_v4.py
+
+Os scripts foram usados com Blender 4.5.9. Eles precisam ser executados pelo Python do Blender.
+A estrutura tools/ e dist/assets/ foi preservada para manter os caminhos relativos dos scripts.
+Os arquivos gerados ficam em dist/assets/clouds e dist/assets/tamagotchi.
+
+O computador, a mesa e a composição da hero são construídos em código Three.js:
+02-CODIGO-FONTE/site/aero-scene.js. Não existe um arquivo .blend do computador final.
+O comportamento da câmera está em aero-hero.js; o acabamento das nuvens em aero-cloud-material.js.
+
+Os PNGs originais do retrato, do avatar e do Tamagotchi ficam em dist/assets/.
+O site utiliza variantes WebP sem perdas, presentes nas pastas 01 e 02.
+A trilha original está em audio-original/. A versão pronta para web está em assets/audio/ do site.
+Versões anteriores, backups .blend1 e logs permanecem apenas no arquivo histórico.
+Blender não é necessário para hospedar ou executar o site.
