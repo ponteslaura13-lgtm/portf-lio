@@ -1,0 +1,23 @@
+CÓDIGO-FONTE ATUAL — PORTÁTIL E SEM BUILD
+
+A pasta site/ contém todo o código-fonte executável, com assets. Não existem arquivos de origem separados em React/Vite.
+Você pode editar diretamente os arquivos .html, .css e .js.
+
+Prévia local, com Node.js instalado:
+node ferramentas/servidor-local.mjs
+Abra http://127.0.0.1:4180/ no navegador.
+Ou use npm start. Não é preciso npm install.
+Para escolher outra porta: node ferramentas/servidor-local.mjs 4181
+Para encerrar: Ctrl+C no terminal.
+
+Checagem do código e dos arquivos:
+node ferramentas/verificar.mjs
+Ou use npm run verificar.
+
+Depois de editar site/, copie seu CONTEÚDO para 01-SITE-PARA-HOSPEDAR.
+Ao publicar uma atualização, aumente as versões ?v= dos módulos/CSS alterados para evitar cache antigo.
+O ZIP de upload original não é regenerado automaticamente; compacte o conteúdo atualizado da pasta 01.
+
+O script CONFIGURAR-DOMINIO.mjs, na raiz da entrega, configura as duas cópias do site.
+O histórico Git original pode ser restaurado pelos bundles em 03-REPOSITORIOS-GIT.
+Esta cópia de fonte está pronta para ser adicionada ao seu próprio repositório Git.

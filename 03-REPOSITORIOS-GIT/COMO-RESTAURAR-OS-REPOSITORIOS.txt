@@ -1,0 +1,17 @@
+Os arquivos .bundle são repositórios Git completos, com todos os commits e referências locais exportados.
+Não precisam de login no Sites nem de acesso ao repositório remoto para serem restaurados.
+
+Com Git instalado, abra o terminal nesta pasta e execute:
+git clone portfolio-publicado.bundle portfolio-publicado
+git clone portfolio-desenvolvimento-original.bundle portfolio-desenvolvimento-original
+
+No repositório publicado, a versão atual está em out/index.html.
+dist/index.html é histórico e NÃO é a página inicial aprovada.
+
+O bundle original preserva o histórico já commitado da fase de desenvolvimento.
+As alterações que ainda não estavam commitadas, materiais e estudos estão no ZIP de 06-HISTORICO-DO-PROJETO.
+O site pronto e o código-fonte atual estão nas pastas 01 e 02, respectivamente.
+
+O repositório restaurado aponta inicialmente para o arquivo bundle local.
+Para usar seu próprio servidor Git, configure o novo remote depois de clonar.
+Não coloque estes arquivos bundle na pasta pública da hospedagem.
